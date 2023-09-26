@@ -3116,7 +3116,7 @@ text-transform: capitalize;
   display: flex;
   margin-top: 20px;
   justify-content: space-between;align-items: center;
-  width: 400px;
+  max-width: 400px;
 }
 .omlaa_value_resalet{
   display: flex;gap: 10px;
@@ -3430,8 +3430,8 @@ text-align: center;
   margin-left: 10px;
   margin-bottom: 8px;
 }
-.input_jops_topic_span{
-
+.warrp{
+flex-wrap: wrap;
 }
 .input-file {
   position: relative;
@@ -4391,6 +4391,10 @@ display: none;
   .Openings_card_container {
     padding: 48px 15px 0px 15px;
 }
+.warrp{
+  flex-direction: column;
+  gap: 10px;
+}
   .Openings_card{
     padding: 20px;
     border-radius: 20px;
@@ -4514,7 +4518,7 @@ display: none;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  width: 200px;
+  max-width: 200px;
   gap: 16px;
 }
 .CTA_content_svgg{
